@@ -46,7 +46,7 @@ public class AudioManager : Singleton<AudioManager>
     {
         float startVolume = audioSource.volume;
 
-        while(audioSource.volume > 0)
+        while (audioSource.volume > 0)
         {
             audioSource.volume -= Time.deltaTime / fadeTime;
 
