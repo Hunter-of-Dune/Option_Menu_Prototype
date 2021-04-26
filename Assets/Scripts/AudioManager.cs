@@ -7,11 +7,6 @@ public class AudioManager : Singleton<AudioManager>
     [SerializeField] AudioSource bgMusic;
     [SerializeField] AudioSource sfx;
 
-    public AudioClip soundfx1;
-    public AudioClip soundfx2;
-    public AudioClip soundfx3;
-    public AudioClip soundfx4;
-
     public AudioSource BGMusic
     {
         get { return bgMusic; }
